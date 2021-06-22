@@ -13,7 +13,7 @@
 [package]
 edition = "2018"
 name = "command-fds"
-version = "0.1.0"
+version = "0.2.0"
 authors = ["Andrew Walbran <qwandor@google.com>"]
 description = "A library for passing arbitrary file descriptors when spawning child processes."
 keywords = ["command", "process", "child", "subprocess", "fd"]
