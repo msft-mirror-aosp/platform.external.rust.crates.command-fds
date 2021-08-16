@@ -13,7 +13,7 @@
 [package]
 edition = "2018"
 name = "command-fds"
-version = "0.2.0"
+version = "0.2.1"
 authors = ["Andrew Walbran <qwandor@google.com>"]
 description = "A library for passing arbitrary file descriptors when spawning child processes."
 keywords = ["command", "process", "child", "subprocess", "fd"]
@@ -21,7 +21,7 @@ categories = ["os::unix-apis"]
 license = "Apache-2.0"
 repository = "https://github.com/google/command-fds/"
 [dependencies.nix]
-version = "0.20.0"
+version = "0.22.0"
 
 [dependencies.thiserror]
 version = "1.0.24"
