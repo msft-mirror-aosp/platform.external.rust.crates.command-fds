@@ -22,6 +22,8 @@ rust_library {
     name: "libcommand_fds",
     host_supported: true,
     crate_name: "command_fds",
+    cargo_env_compat: true,
+    cargo_pkg_version: "0.2.1",
     srcs: ["src/lib.rs"],
     edition: "2018",
     rustlibs: [
@@ -35,13 +37,15 @@ rust_library {
 }
 
 // dependent_library ["feature_list"]
+//   autocfg-1.0.1
 //   bitflags-1.2.1 "default"
 //   cfg-if-1.0.0
-//   libc-0.2.97 "default,extra_traits,std"
-//   nix-0.20.0
-//   proc-macro2-1.0.27 "default,proc-macro"
+//   libc-0.2.99 "default,extra_traits,std"
+//   memoffset-0.6.4 "default"
+//   nix-0.22.1
+//   proc-macro2-1.0.28 "default,proc-macro"
 //   quote-1.0.9 "default,proc-macro"
-//   syn-1.0.73 "clone-impls,default,derive,parsing,printing,proc-macro,quote"
-//   thiserror-1.0.25
-//   thiserror-impl-1.0.25
+//   syn-1.0.74 "clone-impls,default,derive,parsing,printing,proc-macro,quote"
+//   thiserror-1.0.26
+//   thiserror-impl-1.0.26
 //   unicode-xid-0.2.2 "default"
