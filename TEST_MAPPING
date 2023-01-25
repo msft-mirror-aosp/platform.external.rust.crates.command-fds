@@ -2,12 +2,48 @@
 {
   "presubmit": [
     {
-      "name": "virtualizationservice_device_test"
+      "name": "compos_verify.test"
+    },
+    {
+      "name": "composd_cmd.test"
+    },
+    {
+      "name": "open_then_run.test"
+    },
+    {
+      "name": "rialto_test"
+    },
+    {
+      "name": "virtualizationmanager_device_test"
+    },
+    {
+      "name": "vm.test"
+    },
+    {
+      "name": "vmbase_example.integration_test"
     }
   ],
   "presubmit-rust": [
     {
-      "name": "virtualizationservice_device_test"
+      "name": "compos_verify.test"
+    },
+    {
+      "name": "composd_cmd.test"
+    },
+    {
+      "name": "open_then_run.test"
+    },
+    {
+      "name": "rialto_test"
+    },
+    {
+      "name": "virtualizationmanager_device_test"
+    },
+    {
+      "name": "vm.test"
+    },
+    {
+      "name": "vmbase_example.integration_test"
     }
   ]
 }
