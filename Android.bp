@@ -3,6 +3,7 @@
 
 package {
     default_applicable_licenses: ["external_rust_crates_command-fds_license"],
+    default_team: "trendy_team_android_rust",
 }
 
 license {
@@ -17,7 +18,7 @@ rust_library {
     host_supported: true,
     crate_name: "command_fds",
     cargo_env_compat: true,
-    cargo_pkg_version: "0.2.2",
+    cargo_pkg_version: "0.3.0",
     crate_root: "src/lib.rs",
     edition: "2018",
     features: ["default"],
